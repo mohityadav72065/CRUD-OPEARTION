@@ -1,0 +1,35 @@
+<%- include('./base/header.ejs') %>
+<div class="container">
+    <div class="alert big-success mt-3">
+        <h4 class="text-center"> create New Account</h4>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center mt-4">
+        <div class="col-12 col-md-8 col-lg-6">
+            <form action="/" method="POST" class="p-3 border rounded bg-white shadow-sm">
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">City</label>
+                    <input class="form-control" type="text" name="city" placeholder="Enter your city">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input class="form-control" type="email" name="Email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Phone</label>
+                    <input class="form-control" type="number" name="Phone" placeholder="Enter your phone">
+                </div>
+                <button class="btn btn-warning w-100" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<%- include('./base/footer.ejs') %>
+
+
+    

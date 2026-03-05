@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    text-align: center;
+}
+body{
+    background:#f8f9fa;
+}
+.form-center{
+    max-width:600px;
+    margin:0 auto;
+}
+.alert.big-success{
+    background-color:green;
+    border-color: black;
+    color: black;
+}
