@@ -1,6 +1,6 @@
 import express from 'express';
 const app = express();
-const port = 4000;
+const port = 3000;
 import route from './routes/route.js';
 import connectDB from './connectDB/connectdb.js'; 
 import bodyParser from 'body-parser';
